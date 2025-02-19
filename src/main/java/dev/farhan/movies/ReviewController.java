@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
-@CrossOrigin(origins = "https://prismatic-dusk-d031c9.netlify.app/")
+@CrossOrigin(origins = "https://prismatic-dusk-d031c9.netlify.app")
 public class ReviewController {
     @Autowired
     private ReviewService service;

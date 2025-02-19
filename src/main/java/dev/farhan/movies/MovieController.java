@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api/v1/movies")
-@CrossOrigin(origins = "https://prismatic-dusk-d031c9.netlify.app/")
+@RequestMapping("/api/v1/movies")
+@CrossOrigin(origins = "https://prismatic-dusk-d031c9.netlify.app")
 public class MovieController {
 
     @Autowired
