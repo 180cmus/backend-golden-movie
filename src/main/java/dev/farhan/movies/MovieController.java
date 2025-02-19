@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/movies")
-@CrossOrigin(origins = "https://prismatic-dusk-d031c9.netlify.app")
+@CrossOrigin(origins = "https://exquisite-taiyaki-ce3c7f.netlify.app/")
 public class MovieController {
 
     @Autowired
