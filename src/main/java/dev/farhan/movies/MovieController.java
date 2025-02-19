@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/v1/movies")
-@CrossOrigin(origins = "https://backend-golden-movie-production.up.railway.app")
+@CrossOrigin(origins = "http://localhost:3000")
 public class MovieController {
 
     @Autowired
